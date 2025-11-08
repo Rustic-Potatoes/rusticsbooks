@@ -1,0 +1,1 @@
+Resource Pack Template for 1.21.7 - 1.21.10 
