@@ -1,0 +1,168 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "rusticsbooks:item/book",
+		"book": "rusticsbooks:item/book",
+		"paper": "rusticsbooks:item/paper",
+		"text": "rusticsbook:item/text"
+	},
+	"elements": [
+		{
+			"name": "Connector",
+			"from": [11, 7, 3],
+			"to": [12, 9, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 3, 4.5, 4], "texture": "#book"},
+				"east": {"uv": [4, 0, 9, 1], "texture": "#book"},
+				"south": {"uv": [4, 3, 4.5, 4], "texture": "#book"},
+				"west": {"uv": [4, 1, 9, 2], "texture": "#book"},
+				"up": {"uv": [4.5, 9, 4, 4], "texture": "#book"},
+				"down": {"uv": [4.5, 4, 4, 9], "texture": "#book"}
+			}
+		},
+		{
+			"name": "Top",
+			"from": [4, 9, 3],
+			"to": [12, 10, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 2.5, 8, 3], "texture": "#book"},
+				"east": {"uv": [4, 2, 9, 2.5], "texture": "#book"},
+				"south": {"uv": [4, 2.5, 8, 3], "texture": "#book"},
+				"west": {"uv": [4, 2, 9, 2.5], "texture": "#book"},
+				"up": {"uv": [4, 5, 0, 0], "texture": "#book"},
+				"down": {"uv": [4, 5, 0, 10], "texture": "#book"}
+			}
+		},
+		{
+			"name": "Bottom",
+			"from": [4, 6, 3],
+			"to": [12, 7, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 2.5, 8, 3], "texture": "#book"},
+				"east": {"uv": [4, 2, 9, 2.5], "texture": "#book"},
+				"south": {"uv": [4, 2.5, 8, 3], "texture": "#book"},
+				"west": {"uv": [4, 2.5, 9, 2], "texture": "#book"},
+				"up": {"uv": [4, 10, 0, 5], "texture": "#book"},
+				"down": {"uv": [4, 0, 0, 5], "texture": "#book"}
+			}
+		},
+		{
+			"name": "paper",
+			"from": [4.5, 7, 3.5],
+			"to": [11, 9, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3.5, 1, 7, 2], "texture": "#paper"},
+				"east": {"uv": [3.5, 0, 8, 1], "texture": "#paper"},
+				"south": {"uv": [3.5, 1, 7, 2], "texture": "#paper"},
+				"west": {"uv": [3.5, 0, 8, 1], "texture": "#paper"},
+				"up": {"uv": [3.5, 4.5, 0, 0], "texture": "#paper"},
+				"down": {"uv": [3.5, 4.5, 0, 9], "texture": "#paper"}
+			}
+		},
+		{
+			"name": "First",
+			"from": [6, 10.01, 10],
+			"to": [10, 10.01, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 10]},
+			"faces": {
+				"up": {"uv": [4, 1, 0, 0], "texture": "#text"}
+			}
+		},
+		{
+			"name": "Second",
+			"from": [6, 10.01, 8],
+			"to": [10, 10.01, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 10]},
+			"faces": {
+				"up": {"uv": [4, 2, 0, 1], "texture": "#text"}
+			}
+		},
+		{
+			"name": "Third",
+			"from": [6, 10.01, 6],
+			"to": [10, 10.01, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 10]},
+			"faces": {
+				"up": {"uv": [4, 3, 0, 2], "texture": "#text"}
+			}
+		},
+		{
+			"name": "Fourth",
+			"from": [6, 5.99, 10],
+			"to": [10, 5.99, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 14]},
+			"faces": {
+				"down": {"uv": [4, 0, 0, 1], "texture": "#text"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 1, 1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 1, 1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 150, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 150, -13],
+			"translation": [0, -1, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, -1, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [100, -180, 15],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 8.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"on_shelf": {
+			"rotation": [90, -180, 0],
+			"translation": [0, 0, -1],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Book",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "Paper",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [3]
+		},
+		{
+			"name": "Text",
+			"origin": [6, 4, 6],
+			"color": 0,
+			"children": [4, 5, 6, 7]
+		}
+	]
+}
