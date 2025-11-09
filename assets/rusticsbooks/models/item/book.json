@@ -5,7 +5,7 @@
 		"particle": "rusticsbooks:item/book",
 		"book": "rusticsbooks:item/book",
 		"paper": "rusticsbooks:item/paper",
-		"text": "rusticsbook:item/text"
+		"text": "rusticsbooks:item/text/text"
 	},
 	"elements": [
 		{
