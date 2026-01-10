@@ -1,0 +1,7 @@
+{
+    "parent": "rusticsbooks:item/book",
+    "textures": {
+        "text": "rusticsbooks:item/text/written_book",
+        "book": "rusticsbooks:item/writable_book"
+    }
+}
