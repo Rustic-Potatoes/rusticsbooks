@@ -1,0 +1,996 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:stored_enchantments",
+    "value": [
+      {
+        "enchantments": "minecraft:binding_curse",
+        "levels": {
+          "min": 1,
+          "max": 255
+        }
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/enchanted_book",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": 6053478
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:stored_enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:vanishing_curse",
+          "levels": {
+            "min": 1,
+            "max": 255
+          }
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_book",
+        "tints": [
+          {
+            "type": "minecraft:potion",
+            "default": 12471155
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:aqua_affinity",
+            "levels": {
+              "min": 1,
+              "max": 255
+            }
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_book",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 5495524
+            }
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:stored_enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:bane_of_arthropods",
+              "levels": {
+                "min": 1,
+                "max": 255
+              }
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_book",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 8388640
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:stored_enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:blast_protection",
+                "levels": {
+                  "min": 1,
+                  "max": 255
+                }
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book",
+              "tints": [
+                {
+                  "type": "minecraft:potion",
+                  "default": 9339761
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:stored_enchantments",
+              "value": [
+                {
+                  "enchantments": "minecraft:breach",
+                  "levels": {
+                    "min": 1,
+                    "max": 255
+                  }
+                }
+              ],
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/enchanted_book",
+                "tints": [
+                  {
+                    "type": "minecraft:potion",
+                    "default": 9731009
+                  }
+                ]
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:stored_enchantments",
+                "value": [
+                  {
+                    "enchantments": "minecraft:channeling",
+                    "levels": {
+                      "min": 1,
+                      "max": 255
+                    }
+                  }
+                ],
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book",
+                  "tints": [
+                    {
+                      "type": "minecraft:potion",
+                      "default": 3735518
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:stored_enchantments",
+                  "value": [
+                    {
+                      "enchantments": "minecraft:density",
+                      "levels": {
+                        "min": 1,
+                        "max": 255
+                      }
+                    }
+                  ],
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/enchanted_book",
+                    "tints": [
+                      {
+                        "type": "minecraft:potion",
+                        "default": 10461809
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:stored_enchantments",
+                    "value": [
+                      {
+                        "enchantments": "minecraft:depth_strider",
+                        "levels": {
+                          "min": 1,
+                          "max": 255
+                        }
+                      }
+                    ],
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/enchanted_book",
+                      "tints": [
+                        {
+                          "type": "minecraft:potion",
+                          "default": 6581203
+                        }
+                      ]
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:stored_enchantments",
+                      "value": [
+                        {
+                          "enchantments": "minecraft:efficiency",
+                          "levels": {
+                            "min": 1,
+                            "max": 255
+                          }
+                        }
+                      ],
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/enchanted_book",
+                        "tints": [
+                          {
+                            "type": "minecraft:potion",
+                            "default": 13144089
+                          }
+                        ]
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:stored_enchantments",
+                        "value": [
+                          {
+                            "enchantments": "minecraft:feather_falling",
+                            "levels": {
+                              "min": 1,
+                              "max": 255
+                            }
+                          }
+                        ],
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/enchanted_book",
+                          "tints": [
+                            {
+                              "type": "minecraft:potion",
+                              "default": 13421255
+                            }
+                          ]
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:stored_enchantments",
+                          "value": [
+                            {
+                              "enchantments": "minecraft:fire_aspect",
+                              "levels": {
+                                "min": 1,
+                                "max": 255
+                              }
+                            }
+                          ],
+                          "on_true": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/enchanted_book",
+                            "tints": [
+                              {
+                                "type": "minecraft:potion",
+                                "default": 14699546
+                              }
+                            ]
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:stored_enchantments",
+                            "value": [
+                              {
+                                "enchantments": "minecraft:fire_protection",
+                                "levels": {
+                                  "min": 1,
+                                  "max": 255
+                                }
+                              }
+                            ],
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:item/enchanted_book",
+                              "tints": [
+                                {
+                                  "type": "minecraft:potion",
+                                  "default": 11430461
+                                }
+                              ]
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:stored_enchantments",
+                              "value": [
+                                {
+                                  "enchantments": "minecraft:flame",
+                                  "levels": {
+                                    "min": 1,
+                                    "max": 255
+                                  }
+                                }
+                              ],
+                              "on_true": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/enchanted_book",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:potion",
+                                    "default": 10619659
+                                  }
+                                ]
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:stored_enchantments",
+                                "value": [
+                                  {
+                                    "enchantments": "minecraft:fortune",
+                                    "levels": {
+                                      "min": 1,
+                                      "max": 255
+                                    }
+                                  }
+                                ],
+                                "on_true": {
+                                  "type": "minecraft:model",
+                                  "model": "minecraft:item/enchanted_book",
+                                  "tints": [
+                                    {
+                                      "type": "minecraft:potion",
+                                      "default": 2664376
+                                    }
+                                  ]
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:stored_enchantments",
+                                  "value": [
+                                    {
+                                      "enchantments": "minecraft:frost_walker",
+                                      "levels": {
+                                        "min": 1,
+                                        "max": 255
+                                      }
+                                    }
+                                  ],
+                                  "on_true": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/enchanted_book",
+                                    "tints": [
+                                      {
+                                        "type": "minecraft:potion",
+                                        "default": 10013932
+                                      }
+                                    ]
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:stored_enchantments",
+                                    "value": [
+                                      {
+                                        "enchantments": "minecraft:impaling",
+                                        "levels": {
+                                          "min": 1,
+                                          "max": 255
+                                        }
+                                      }
+                                    ],
+                                    "on_true": {
+                                      "type": "minecraft:model",
+                                      "model": "minecraft:item/enchanted_book",
+                                      "tints": [
+                                        {
+                                          "type": "minecraft:potion",
+                                          "default": 10593210
+                                        }
+                                      ]
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:stored_enchantments",
+                                      "value": [
+                                        {
+                                          "enchantments": "minecraft:infinity",
+                                          "levels": {
+                                            "min": 1,
+                                            "max": 255
+                                          }
+                                        }
+                                      ],
+                                      "on_true": {
+                                        "type": "minecraft:model",
+                                        "model": "minecraft:item/enchanted_book",
+                                        "tints": [
+                                          {
+                                            "type": "minecraft:potion",
+                                            "default": 13356179
+                                          }
+                                        ]
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:stored_enchantments",
+                                        "value": [
+                                          {
+                                            "enchantments": "minecraft:knockback",
+                                            "levels": {
+                                              "min": 1,
+                                              "max": 255
+                                            }
+                                          }
+                                        ],
+                                        "on_true": {
+                                          "type": "minecraft:model",
+                                          "model": "minecraft:item/enchanted_book",
+                                          "tints": [
+                                            {
+                                              "type": "minecraft:potion",
+                                              "default": 9358517
+                                            }
+                                          ]
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:stored_enchantments",
+                                          "value": [
+                                            {
+                                              "enchantments": "minecraft:looting",
+                                              "levels": {
+                                                "min": 1,
+                                                "max": 255
+                                              }
+                                            }
+                                          ],
+                                          "on_true": {
+                                            "type": "minecraft:model",
+                                            "model": "minecraft:item/enchanted_book",
+                                            "tints": [
+                                              {
+                                                "type": "minecraft:potion",
+                                                "default": 13977733
+                                              }
+                                            ]
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:stored_enchantments",
+                                            "value": [
+                                              {
+                                                "enchantments": "minecraft:loyalty",
+                                                "levels": {
+                                                  "min": 1,
+                                                  "max": 255
+                                                }
+                                              }
+                                            ],
+                                            "on_true": {
+                                              "type": "minecraft:model",
+                                              "model": "minecraft:item/enchanted_book",
+                                              "tints": [
+                                                {
+                                                  "type": "minecraft:potion",
+                                                  "default": 28840
+                                                }
+                                              ]
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:stored_enchantments",
+                                              "value": [
+                                                {
+                                                  "enchantments": "minecraft:luck_of_the_sea",
+                                                  "levels": {
+                                                    "min": 1,
+                                                    "max": 255
+                                                  }
+                                                }
+                                              ],
+                                              "on_true": {
+                                                "type": "minecraft:model",
+                                                "model": "minecraft:item/enchanted_book",
+                                                "tints": [
+                                                  {
+                                                    "type": "minecraft:potion",
+                                                    "default": 3330751
+                                                  }
+                                                ]
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:stored_enchantments",
+                                                "value": [
+                                                  {
+                                                    "enchantments": "minecraft:lunge",
+                                                    "levels": {
+                                                      "min": 1,
+                                                      "max": 255
+                                                    }
+                                                  }
+                                                ],
+                                                "on_true": {
+                                                  "type": "minecraft:model",
+                                                  "model": "minecraft:item/enchanted_book",
+                                                  "tints": [
+                                                    {
+                                                      "type": "minecraft:potion",
+                                                      "default": 5596842
+                                                    }
+                                                  ]
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:stored_enchantments",
+                                                  "value": [
+                                                    {
+                                                      "enchantments": "minecraft:lure",
+                                                      "levels": {
+                                                        "min": 1,
+                                                        "max": 255
+                                                      }
+                                                    }
+                                                  ],
+                                                  "on_true": {
+                                                    "type": "minecraft:model",
+                                                    "model": "minecraft:item/enchanted_book",
+                                                    "tints": [
+                                                      {
+                                                        "type": "minecraft:potion",
+                                                        "default": 13181141
+                                                      }
+                                                    ]
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:stored_enchantments",
+                                                    "value": [
+                                                      {
+                                                        "enchantments": "minecraft:mending",
+                                                        "levels": {
+                                                          "min": 1,
+                                                          "max": 255
+                                                        }
+                                                      }
+                                                    ],
+                                                    "on_true": {
+                                                      "type": "minecraft:model",
+                                                      "model": "minecraft:item/enchanted_book",
+                                                      "tints": [
+                                                        {
+                                                          "type": "minecraft:potion",
+                                                          "default": 3984424
+                                                        }
+                                                      ]
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:stored_enchantments",
+                                                      "value": [
+                                                        {
+                                                          "enchantments": "minecraft:multishot",
+                                                          "levels": {
+                                                            "min": 1,
+                                                            "max": 255
+                                                          }
+                                                        }
+                                                      ],
+                                                      "on_true": {
+                                                        "type": "minecraft:model",
+                                                        "model": "minecraft:item/enchanted_book",
+                                                        "tints": [
+                                                          {
+                                                            "type": "minecraft:potion",
+                                                            "default": 15388186
+                                                          }
+                                                        ]
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:stored_enchantments",
+                                                        "value": [
+                                                          {
+                                                            "enchantments": "minecraft:piercing",
+                                                            "levels": {
+                                                              "min": 1,
+                                                              "max": 255
+                                                            }
+                                                          }
+                                                        ],
+                                                        "on_true": {
+                                                          "type": "minecraft:model",
+                                                          "model": "minecraft:item/enchanted_book",
+                                                          "tints": [
+                                                            {
+                                                              "type": "minecraft:potion",
+                                                              "default": 16489885
+                                                            }
+                                                          ]
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:stored_enchantments",
+                                                          "value": [
+                                                            {
+                                                              "enchantments": "minecraft:power",
+                                                              "levels": {
+                                                                "min": 1,
+                                                                "max": 255
+                                                              }
+                                                            }
+                                                          ],
+                                                          "on_true": {
+                                                            "type": "minecraft:model",
+                                                            "model": "minecraft:item/enchanted_book",
+                                                            "tints": [
+                                                              {
+                                                                "type": "minecraft:potion",
+                                                                "default": 5954950
+                                                              }
+                                                            ]
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:stored_enchantments",
+                                                            "value": [
+                                                              {
+                                                                "enchantments": "minecraft:projectile_protection",
+                                                                "levels": {
+                                                                  "min": 1,
+                                                                  "max": 255
+                                                                }
+                                                              }
+                                                            ],
+                                                            "on_true": {
+                                                              "type": "minecraft:model",
+                                                              "model": "minecraft:item/enchanted_book",
+                                                              "tints": [
+                                                                {
+                                                                  "type": "minecraft:potion",
+                                                                  "default": 9017208
+                                                                }
+                                                              ]
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:stored_enchantments",
+                                                              "value": [
+                                                                {
+                                                                  "enchantments": "minecraft:protection",
+                                                                  "levels": {
+                                                                    "min": 1,
+                                                                    "max": 255
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "on_true": {
+                                                                "type": "minecraft:model",
+                                                                "model": "minecraft:item/enchanted_book",
+                                                                "tints": [
+                                                                  {
+                                                                    "type": "minecraft:potion",
+                                                                    "default": 4732127
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:stored_enchantments",
+                                                                "value": [
+                                                                  {
+                                                                    "enchantments": "minecraft:punch",
+                                                                    "levels": {
+                                                                      "min": 1,
+                                                                      "max": 255
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "on_true": {
+                                                                  "type": "minecraft:model",
+                                                                  "model": "minecraft:item/enchanted_book",
+                                                                  "tints": [
+                                                                    {
+                                                                      "type": "minecraft:potion",
+                                                                      "default": 16024101
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:stored_enchantments",
+                                                                  "value": [
+                                                                    {
+                                                                      "enchantments": "minecraft:quick_charge",
+                                                                      "levels": {
+                                                                        "min": 1,
+                                                                        "max": 255
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "on_true": {
+                                                                    "type": "minecraft:model",
+                                                                    "model": "minecraft:item/enchanted_book",
+                                                                    "tints": [
+                                                                      {
+                                                                        "type": "minecraft:potion",
+                                                                        "default": 8839076
+                                                                      }
+                                                                    ]
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:stored_enchantments",
+                                                                    "value": [
+                                                                      {
+                                                                        "enchantments": "minecraft:riptide",
+                                                                        "levels": {
+                                                                          "min": 1,
+                                                                          "max": 255
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "on_true": {
+                                                                      "type": "minecraft:model",
+                                                                      "model": "minecraft:item/enchanted_book",
+                                                                      "tints": [
+                                                                        {
+                                                                          "type": "minecraft:potion",
+                                                                          "default": 5887219
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:stored_enchantments",
+                                                                      "value": [
+                                                                        {
+                                                                          "enchantments": "minecraft:sharpness",
+                                                                          "levels": {
+                                                                            "min": 1,
+                                                                            "max": 255
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "on_true": {
+                                                                        "type": "minecraft:model",
+                                                                        "model": "minecraft:item/enchanted_book",
+                                                                        "tints": [
+                                                                          {
+                                                                            "type": "minecraft:potion",
+                                                                            "default": 15817593
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:stored_enchantments",
+                                                                        "value": [
+                                                                          {
+                                                                            "enchantments": "minecraft:silk_touch",
+                                                                            "levels": {
+                                                                              "min": 1,
+                                                                              "max": 255
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "on_true": {
+                                                                          "type": "minecraft:model",
+                                                                          "model": "minecraft:item/enchanted_book",
+                                                                          "tints": [
+                                                                            {
+                                                                              "type": "minecraft:potion",
+                                                                              "default": 2008103
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:stored_enchantments",
+                                                                          "value": [
+                                                                            {
+                                                                              "enchantments": "minecraft:smite",
+                                                                              "levels": {
+                                                                                "min": 1,
+                                                                                "max": 255
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "on_true": {
+                                                                            "type": "minecraft:model",
+                                                                            "model": "minecraft:item/enchanted_book",
+                                                                            "tints": [
+                                                                              {
+                                                                                "type": "minecraft:potion",
+                                                                                "default": 5920856
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:stored_enchantments",
+                                                                            "value": [
+                                                                              {
+                                                                                "enchantments": "minecraft:sweeping",
+                                                                                "levels": {
+                                                                                  "min": 1,
+                                                                                  "max": 255
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "on_true": {
+                                                                              "type": "minecraft:model",
+                                                                              "model": "minecraft:item/enchanted_book",
+                                                                              "tints": [
+                                                                                {
+                                                                                  "type": "minecraft:potion",
+                                                                                  "default": 11189169
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:stored_enchantments",
+                                                                              "value": [
+                                                                                {
+                                                                                  "enchantments": "minecraft:swift_sneak",
+                                                                                  "levels": {
+                                                                                    "min": 1,
+                                                                                    "max": 255
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "on_true": {
+                                                                                "type": "minecraft:model",
+                                                                                "model": "minecraft:item/enchanted_book",
+                                                                                "tints": [
+                                                                                  {
+                                                                                    "type": "minecraft:potion",
+                                                                                    "default": 3882349
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:stored_enchantments",
+                                                                                "value": [
+                                                                                  {
+                                                                                    "enchantments": "minecraft:thorns",
+                                                                                    "levels": {
+                                                                                      "min": 1,
+                                                                                      "max": 255
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "on_true": {
+                                                                                  "type": "minecraft:model",
+                                                                                  "model": "minecraft:item/enchanted_book",
+                                                                                  "tints": [
+                                                                                    {
+                                                                                      "type": "minecraft:potion",
+                                                                                      "default": 4241998
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:stored_enchantments",
+                                                                                  "value": [
+                                                                                    {
+                                                                                      "enchantments": "minecraft:unbreaking",
+                                                                                      "levels": {
+                                                                                        "min": 1,
+                                                                                        "max": 255
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "on_true": {
+                                                                                    "type": "minecraft:model",
+                                                                                    "model": "minecraft:item/enchanted_book",
+                                                                                    "tints": [
+                                                                                      {
+                                                                                        "type": "minecraft:potion",
+                                                                                        "default": 5325006
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:stored_enchantments",
+                                                                                    "value": [
+                                                                                      {
+                                                                                        "enchantments": "minecraft:wind_burst",
+                                                                                        "levels": {
+                                                                                          "min": 1,
+                                                                                          "max": 255
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "on_true": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "minecraft:item/enchanted_book",
+                                                                                      "tints": [
+                                                                                        {
+                                                                                          "type": "minecraft:potion",
+                                                                                          "default": 12368341
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "minecraft:item/enchanted_book",
+                                                                                      "tints": [
+                                                                                        {
+                                                                                          "type": "minecraft:potion",
+                                                                                          "default": 16777215
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
