@@ -115,18 +115,6 @@
 				"up": {"uv": [5, 10, 9, 11], "texture": "#book"},
 				"down": {"uv": [9, 12, 5, 11], "texture": "#book"}
 			}
-		},
-		{
-			"name": "binderinside",
-			"from": [12.1, 10.1, 9],
-			"to": [3.9, 5.9, 7],
-			"rotation": {"angle": 0, "axis": "y", "origin": [18.2, 10.2, 9]},
-			"faces": {
-				"east": {"uv": [5, 12, 6, 14], "texture": "#book"},
-				"west": {"uv": [6, 14, 5, 12], "texture": "#book"},
-				"up": {"uv": [5, 11, 9, 12], "texture": "#book"},
-				"down": {"uv": [9, 11, 5, 10], "texture": "#book"}
-			}
 		}
 	],
 	"gui_light": "front",
@@ -196,7 +184,7 @@
 			"name": "Binder",
 			"origin": [18.2, 10.2, 9],
 			"color": 0,
-			"children": [8, 9]
+			"children": [8]
 		}
 	]
 }
