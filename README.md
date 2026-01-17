@@ -8,6 +8,9 @@ Every book, including written books, writable books, and enchanted books has bee
 
 ---
 
+#### If you encounter any bugs or have a suggestion, please report it on my [Github page](https://github.com/Rustic-Potatoes/rusticsbooks/).
+
+
 If you like this pack, try my other resource pack, [Rustic's Bottles](https://github.com/Rustic-Potatoes/rusticsbottles).
 
 
