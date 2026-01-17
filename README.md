@@ -18,6 +18,6 @@ If you like this pack, try my other resource pack, [Rustic's Bottles](https://gi
 ---
 #### Links:
 
-- Curseforge: [TBD]()
+- Curseforge: [Rustic's Books](https://www.curseforge.com/minecraft/texture-packs/rusticsbooks)
 
 ---
