@@ -1,0 +1,7 @@
+{
+"parent": "rusticsbooks:item/book",
+    "textures": {
+        "text": "rusticsbooks:item/text/blank",
+        "book": "rusticsbooks:item/knowledge_book"
+    }
+}
