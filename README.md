@@ -13,7 +13,11 @@ Every book, including written books, writable books, and enchanted books has bee
 
 If you like this pack, try my other resource pack, [Rustic's Bottles](https://github.com/Rustic-Potatoes/rusticsbottles).
 
+---
 
+This pack now has [Respackopts](https://www.curseforge.com/minecraft/mc-mods/respackopts) Support!
+
+you can now disable some modded textures and models to fit your needs without editing the pack directly.
 
 ---
 #### Links:
