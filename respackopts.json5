@@ -1,0 +1,10 @@
+{
+    id: "rusticsBooks",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        moddedRecipeIcon: true,
+        moddedKnowledgeBookModel: true,
+        moddedEnchantingTableBook: true
+    }
+}

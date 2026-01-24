@@ -1,0 +1,5 @@
+{
+    "rpo.rusticsBooks.moddedRecipeIcon.tooltip": "Enables modded textures for the recipe book icon",
+    "rpo.rusticsBooks.moddedKnowledgeBookModel.tooltip": "Enables modded model for the knowledge (recipe) book §oitem§r, turn off for datapacks",
+    "rpo.rusticsBooks.moddedEnchantingTableBook.tooltip": "Enables modded textures for the book on the Enchanting Table"
+}
