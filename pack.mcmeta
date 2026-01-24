@@ -4,6 +4,6 @@
     "supported_formats": [64, 255],
     "min_format": 64,
     "max_format": 255,
-    "description": "§bRustic's Books §r| §e1.0"
+    "description": "§bRustic's Books §r| §e1.1"
   }
 }
